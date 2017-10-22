@@ -11,17 +11,17 @@ void printMatrix( vector <vector <char> > );
 //-----------------------------------------------------------------------------
 int main()
 {
-	//Variables for user input and grid representation
+    //Variables for user input and grid representation
     vector <vector <char > > grid;
-	int rows;
-	int cols;
+    int rows;
+    int cols;
     char filler;
 
     //Retrieve user input...
     cout<<"Enter a character to fill the grid:"<<endl;
     cin>>filler;
-	cout<<"Enter rows and columns of "<<filler<<"'s:"<<endl;
-	cin>>rows>>cols;
+    cout<<"Enter rows and columns of "<<filler<<"'s:"<<endl;
+    cin>>rows>>cols;
     
     //Print error and quit if invalid matrix size...
     if( rows < 1 || cols < 1 )
