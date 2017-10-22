@@ -31,8 +31,8 @@ int main()
     else
     {
         //Call functions to...
-        grid = initializeMatrix(rows,cols,filler); //make the initial grid
-        printMatrix(grid); //print the initialized grid
+        grid = initializeMatrix(rows,cols,filler); //...make the initial grid
+        printMatrix(grid); //...print the initialized grid
     }
 
 	return 0;
